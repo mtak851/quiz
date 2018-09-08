@@ -8,12 +8,13 @@ public class AnswerButton : MonoBehaviour
     public Text answerText;
 
     private AnswerData answerData;
-   // private GameController gameController;
+
+    private GameController gameController;
 
     // Use this for initialization
     void Start()
     {
-    //    gameController = FindObjectOfType<GameController>();
+        gameController = FindObjectOfType<GameController>();
     }
 
     public void Setup(AnswerData data)
@@ -25,6 +26,6 @@ public class AnswerButton : MonoBehaviour
 
     public void HandleClick()
     {
-     //   gameController.AnswerButtonClicked(answerData.isCorrect);
+        gameController.AnswerButtonClicked(answerData.isCorrect);
     }
 }
