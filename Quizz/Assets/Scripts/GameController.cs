@@ -6,21 +6,22 @@ using System.Collections.Generic;
 
 public class GameController : MonoBehaviour //populate to display the answers which currently are not going to be clickable!
 {
-
-
+    
     public Text questionDisplayText;
     public Text scoreDisplayText;
     public Text timeRemainingDisplayText;
+
     public SimpleObjectPool answerButtonObjectPool;
     public Transform answerButtonParent;
     public GameObject questionDisplay;
     public GameObject roundEndDisplay;
+    public Text highScoreDisplay;
 
     private DataController dataController;
     private RoundData currentRoundData;
     private QuestionData[] questionPool; //array of the question data!
 
-    private bool isRoundActive; //Is the game going?!
+    private bool isRoundActive = false; //Is the game going?!
     private float timeRemaining; //the amount of time ledt in a round!
     private int questionIndex; 
     private int playerScore;
@@ -92,6 +93,8 @@ public class GameController : MonoBehaviour //populate to display the answers wh
     public void EndRound()
     {
         isRoundActive = false;
+        dataController.SubmitNewPlayerScore (playerScore);
+        highScoreDisplay.text = dataController.GetHighestPlayerScore().ToString();
 
         questionDisplay.SetActive(false);
         roundEndDisplay.SetActive(true);

@@ -184,6 +184,8 @@ Assets/MenuScreenController.cs
 Assets/Scripts/AnswerData.cs
 Assets/Scripts/DataController.cs
 Assets/Scripts/GameController.cs
+Assets/Scripts/GameData.cs
+Assets/Scripts/PlayerProgress.cs
 Assets/Scripts/QuestionData.cs
 Assets/Scripts/RoundData.cs
 Assets/Scripts/SimpleObjectPool.cs

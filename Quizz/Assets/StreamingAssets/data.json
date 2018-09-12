@@ -1,0 +1,58 @@
+{
+  "allRoundData": [
+    {
+      "name": "Astronaut",
+      "timeLimitInSeconds": 20,
+      "pointsAddedForCorrectAnswer": 10,
+      "questions": [
+        {
+          "questionText": "This is the first question",
+          "answers": [
+            {
+              "answerText": "Answer1",
+              "isCorrect": true
+            },
+            {
+              "answerText": "Answer2",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "questionText": "This is the second question",
+          "answers": [
+            {
+              "answerText": "Answer1",
+              "isCorrect": false
+            },
+            {
+              "answerText": "Answer2",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "questionText": "This is the third question",
+          "answers": [
+            {
+              "answerText": "Answer1",
+              "isCorrect": false
+            },
+            {
+              "answerText": "Answer2",
+              "isCorrect": false
+            },
+            {
+              "answerText": "Answer3",
+              "isCorrect": true
+            },
+            {
+              "answerText": "Answer4",
+              "isCorrect": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
