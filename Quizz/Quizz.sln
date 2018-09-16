@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quizz", "Quizz.csproj", "{912E377A-DC3B-534C-E5AE-EB7B9DB0096E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quizz.Editor", "Quizz.Editor.csproj", "{BAC9A407-2D46-4A1B-7AD7-D72853F59EB3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{912E377A-DC3B-534C-E5AE-EB7B9DB0096E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{912E377A-DC3B-534C-E5AE-EB7B9DB0096E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{912E377A-DC3B-534C-E5AE-EB7B9DB0096E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAC9A407-2D46-4A1B-7AD7-D72853F59EB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAC9A407-2D46-4A1B-7AD7-D72853F59EB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAC9A407-2D46-4A1B-7AD7-D72853F59EB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAC9A407-2D46-4A1B-7AD7-D72853F59EB3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
